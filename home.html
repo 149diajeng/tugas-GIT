@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOROR</title>
+    <link rel="stylesheet" href="contoh.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Internal Style -->
+    <style>
+        * {
+            font-family: 'Work Sans', sans-serif;
+            /* background: linear-gradient(90deg,  black,#3D0000 ); */
+        }
+
+        body {
+            background: linear-gradient(90deg, black, #3D0000);
+        }
+
+        .card-body {
+            background-color: #3D0000;
+            color: white;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #fad33d"><img src="gambar/bee1.png" alt=""> Beenemas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="miniProject.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Genre
+                        </a>
+                        <ul class="dropdown-menu" style="color: white; background: black;">
+                            <li><a class="dropdown-item" href="miniProject.html">Horor</a></li>
+                            <li><a class="dropdown-item" href="miniProject.html">Thriller</a></li>
+                            <li><a class="dropdown-item" href="miniProject.html">Adventure</a></li>
+                            <li><a class="dropdown-item" href="page2.html">Kdrama</a></li>
+                            <li><a class="dropdown-item" href="page2.html">Anime</a></li>
+                            <li><a class="dropdown-item" href="page2.html">Kids</a></li>
+                        </ul>
+
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#signIn">Sign In</a>
+                    </li>
+                    <nav class="navbar bg-body-light">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-warning" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ALERT------------------------------------------ -->
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Some urban legends may have supernatural elements that make them less believable, don't worry we clearly true
+        <img src="gambar/emot1.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- BREADCRUMB -->
+    <div class="container text-center">
+        <nav aria-label="breadcrumb" style="margin: 4%">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="miniProject.html" style="color: white">Home</a></li>
+                <li class="breadcrumb-item"><a href="miniProject.html" style="color: white">Movies</a></li>
+                <li style="color: #fad33d;" class="breadcrumb-item active" aria-current="page">Horor<img
+                        src="gambar/emot1.png" style="width: 30px;"> </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- card -->
+    <div class="container-fluid d-flex flex-wrap gap-3 justify-content-center p-4">
+        <div class="card" style="width: 14rem; border: none;">
+
+            <img src="https://th.bing.com/th/id/R.7749439e94526c3d19d3c5fb32002c65?rik=PbE9izULspDUFA&riu=http%3a%2f%2fwww.impawards.com%2fintl%2fuk%2f2017%2fposters%2fritual_xxlg.jpg&ehk=JVET3irUQpTGTEdEFFBM4J%2b6X8gISMA01VJaRrWKgnU%3d&risl=&pid=ImgRaw&r=0"
+                class="card-img-top" data-bs-toggle="modal" data-bs-target="#A" class="link">
+
+
+            <div class="card-body">
+                <strong>The Ritual</strong> 4,3 <span class="fa fa-star checked"></span>
+
+            </div>
+
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.nDdMiEKImm_ZysQKpkrsvwHaLH?pid=ImgDet&rs=1" class="card-img-top"
+                data-bs-toggle="modal" data-bs-target="#B" class="link">
+            <div class="card-body">
+                <strong>Last Exorcism</strong> 4,1 <span class="fa fa-star checked"></span>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://tr.web.img4.acsta.net/pictures/19/03/11/09/01/4673291.jpg" class="card-img-top"
+                data-bs-toggle="modal" data-bs-target="#C" class="link">
+            <div class="card-body">
+                <strong>Silence</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://cdn.moviefone.com/image-assets/991814/cCTmZ93aBZ1FwHntiDpa2Lj92zs.jpg?d=360x540&q=60"
+                class="card-img-top" data-bs-toggle="modal" data-bs-target="#D" class="link">
+            <div class="card-body">
+                <strong>Re/member</strong> 3,9 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.cw1XTv11g9fgUeWWufz6qQHaK0?pid=ImgDet&rs=1" class="card-img-top"
+                data-bs-toggle="modal" data-bs-target="#E" class="link">
+            <div class="card-body">
+                <strong>Makmum</strong> 3,9 <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://res.cloudinary.com/asianfilmfans/image/upload/v1599198740/posters/07b26875-9034-4785-b2f4-1dff355a7d52.jpg"
+                class="card-img-top" data-bs-toggle="modal" data-bs-target="#F" class="link">
+            <div class="card-body">
+                <strong>The Rope Curse 2</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.uZcl9ztWjf3zSm7yQkic0QHaKi?pid=ImgDet&rs=1" class="card-img-top"
+                data-bs-toggle="modal" data-bs-target="#G" class="link">
+            <div class="card-body">
+                <strong>Veronica</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.iM_wUu6ExJDONj2IX7Xi2AHaLH?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>The Grudge</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://image.tmdb.org/t/p/original/sLaiOg2Y5SsBo0lIXXan1Q3xlZs.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>Alive</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.MNrez81P4NMEg2CPFTkX0AAAAA?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Ancestral</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/43/Umma_(2022_film).jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>Umma</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://th.bing.com/th/id/R.33cebb4c29e332116e395c6be0f94f54?rik=Qaca9ZDTBXsQzQ&riu=http%3a%2f%2fwww.gmanreviews.com%2fwp-content%2fuploads%2f2009%2f08%2forphan-poster.jpg&ehk=hHGm1fOuVBi0hylFvlAn2yxwGcPBzj7hgSkXipNJ7QM%3d&risl=&pid=ImgRaw&r=0"
+                class="card-img-top">
+            <div class="card-body">
+                <strong>Orphan</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.aerK7LOxcB2nUdmyLxMD5QHaLH?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Alas Pati</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://image.tmdb.org/t/p/w500/bPq6x47nEqMZED5PrKelcWWpezM.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>The Whole Truth</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.JQWXCan3ntXWTPVh202oVwHaLH?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Insidious 3</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.H4T9TqYVwRRENNfkHcZbaQHaK-?pid=ImgDet&rs=1">
+            <div class="card-body">
+                <strong>In the Tall Grass</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP._5nsIl6ozIKKcObzVhOlSwHaLH?pid=ImgDet&rs=1">
+            <div class="card-body">
+                <strong>Don't Breathe 2 </strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border: none;">
+            <img src="https://img.reelgood.com/content/show/dfae31cd-db7f-4836-9996-17207b4f2182/poster-780.jpg">
+            <div class="card-body">
+                <strong>Kingdom</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <br><br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="miniProject.html">Back to Home</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <!-- footer ------------------------------------------------------------->
+    <footer class="p-3 mt-5" style="color: white; 
+background: linear-gradient(75deg,#3d0000 ,black);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Coment n Ask -->
+                    <h2 class="display-4" style="padding: 20px;
+        box-sizing: border-box;
+        border: 5px solid #3d0000;
+        color: white;
+        font-size: 30px;
+        ">Feedback</h2>
+                    <!-- Chose Topic -->
+                    <select class="form-select" aria-label="Default select example"
+                        style="width: 30%; margin-bottom: 7px;">
+                        <option selected>Chose Topic</option>
+                        <option value="1">Suggest</option>
+                        <option value="2">Like</option>
+                        <option value="3">Dislike</option>
+
+                    </select>
+
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Email">
+
+                    <div id="emailHelp" class="form-text" style="color: white;">*We'll never share your email with
+                        anyone
+                        else.</div>
+
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+
+                    <button type="submit" class="btn"
+                        style="border: 1px solid white; color: white; margin: 10px;">Send!</button>
+
+                </div>
+                <br><br>
+                <div class="col-md-6" style="padding-left: 7%;">
+                    <h4> Copyright © 2023 Ajeng Fitrihandini</h4>
+                    <p>Mini Project</p>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="#">About Us</a></li>
+                        <li class="list-inline-item"><a href="#">Services</a></li>
+                        <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    </ul>
+                    <h4>Contact Us</h4>
+                    <p>123 Main Street<br> Anytown USA<br> 12345<br> Phone: (123) 456-7890<br> Email: info@company.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+ 
+</body>
+
+</html>
