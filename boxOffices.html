@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacry Movie</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="contoh.css">
+
+
+    <!-- icon link card -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- lightslider jquery cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            #autoWidth5 {
+      height: 350px !important;
+    }
+     #autoWidth6 {
+      height: 425px !important;
+    }
+    #autoWidth7 {
+      height: 425px !important;
+    }
+      .menu {
+        margin-left: 5px;  
+      }
+      
+      .custom-toggler {
+        border: none;
+        background-color: transparent;
+      }
+    
+      .custom-toggler span {
+        border-color: white;
+      }
+    
+      .custom-toggler span:before,
+      .custom-toggler span:after {
+        background-color: white;
+      }
+
+      .custom-menu-burger {
+        background-color: white;
+      }
+      .checked {
+  color: orange;
+      }
+      
+      
+    
+        </style>
+</head>
+
+<body class="body2">
+    <!-- NAVBARRR -->
+    <nav class="navbar navbar-expand-lg bg-body-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #fad33d"><img src="gambar/bee1.png" alt=""> Beenemas</a>
+            <button class="navbar-toggler custom-menu-burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="miniProject.html">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="boxOffices.html">Scary Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asianPage.html">Asian TV</a>
+                    </li>
+    
+    
+    
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#akunUser">My</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                        href="inbox" role="button" aria-expanded="false" aria-controls="collapseExample"
+                        data-bs-target="#inbox" data-bs-toogle="offcanvas ">Inbox <span class="badge rounded-pill text-bg-danger" >1</span></a>
+                    </li>
+                    <nav class="navbar bg-body-light">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-warning" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- collapse inbox -->
+    <div class="collapse" id="inbox">
+        <div class="card bg-transparent">
+        <div class="alert alert-warning text-center" role="alert" style="margin-left: 20%; margin-right: 20%;"><img src="gambar/bee1.png" alt="">
+            March Deal 3.3 up to 33% <a href="https://www.viu.com/ott/id/articles/viu-premium/">Let's Go </a>
+        </div>
+        </div>
+    </div>
+
+     <!-- ALERT------------------------------------------ -->
+
+    
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+Some urban legends may have supernatural elements that make them less believable, don't worry we clearly true <img src="gambar/emot1.png" alt="">
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+    <!-- BREADCRUMB -->
+<div class="container text-center">
+    <nav aria-label="breadcrumb" style="margin: 4%">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="miniProject.html" style="color: white">Home</a></li>
+      <li style="color: #fad33d;" class="breadcrumb-item active" aria-current="page">Scary Movies <img src="/gambar/emot1.png" style="width: 30px;"> </li>
+    </ol>
+  </nav>
+</div>
+
+<!-- POPULAR MOVIE SCARY -->
+
+    <section id="main">
+        <!-- Heading -->
+        <h3 class="heading-popular">Popular Now</h3>
+
+        <ul id="autoWidth5" class="cs-hidden">
+            <!-- box 1 -->
+            <li class="item-b">
+                <div class="popular-box"> 
+                     <img src="https://th.bing.com/th/id/R.2052b726b6309a322bddcef64f94bd03?rik=HgsNawbOE16AfA&riu=http%3a%2f%2fblog.coyoteproductions.co.uk%2fwp-content%2fuploads%2f2015%2f04%2fPoster-Insidious-3.jpg.jpg&ehk=jbmlQXxDbo1m%2bwRFxpBoBGJAafp3fsFIjcL%2fPgzOPuU%3d&risl=&pid=ImgRaw&r=0" alt="" data-bs-toggle="modal" data-bs-target="#scary1" class="link">
+           
+        </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="popular-box">
+                    <img src="https://th.bing.com/th/id/OIP.4AXP11dNF8dyv0iC98oQDQHaEn?pid=ImgDet&rs=1"
+                        alt="" alt="" data-bs-toggle="modal" data-bs-target="#scary2" class="link">
+                    
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="popular-box">
+                    <img src="https://i.ytimg.com/vi/fOBhhlr-bN0/maxresdefault.jpg"
+                        alt="" data-bs-toggle="modal" data-bs-target="#scary3" class="link">
+                    
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="popular-box">
+                    <img src="https://www.wheninmanila.com/wp-content/uploads/2013/08/Mario_Maurer_Movies_Pee_Mak_06.jpg"
+                        alt="" data-bs-toggle="modal" data-bs-target="#scary4" class="link">
+                    
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="popular-box"> 
+                    <img src="https://movierecipe.infoversant.com/wp-content/uploads/The-Silence-Movie-on-Netflix.jpg"
+                        alt="" data-bs-toggle="modal" data-bs-target="#scary5" class="link" >
+                    
+                </div>
+            </li>
+        </ul>
+        
+    </section>
+<!-- JUST ADDED -->
+    <section id="added">
+        <h3 class="heading-justadded">Just Added</h3>
+        <!-- slider -->
+        <ul id="autoWidth6" class="cs-hidden">
+            <!-- 1 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.netflix.com/id/title/70263183">
+                        <img src="https://th.bing.com/th/id/OIP.nDdMiEKImm_ZysQKpkrsvwHaLH?pid=ImgDet&rs=1" alt="">
+                    </div>
+                    </a>
+                        
+                    <div class="add-b-text">
+                        <strong>The Last Excorcism II </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.netflix.com/id-en/title/81021447">
+
+                        <img src="https://tr.web.img4.acsta.net/pictures/19/03/11/09/01/4673291.jpg"
+                            alt="">
+                    </a>
+                        
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Silence </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"><a href="https://www.netflix.com/id-en/title/81486809">
+                        <img src="https://cdn.moviefone.com/image-assets/991814/cCTmZ93aBZ1FwHntiDpa2Lj92zs.jpg?d=360x540&q=60"
+                            alt="">
+                    </a>
+                        
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Re/member </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.hotstar.com/id/movies/makmum/1260036712">
+                        <img src="https://th.bing.com/th/id/OIP.cw1XTv11g9fgUeWWufz6qQHaK0?pid=ImgDet&rs=1"
+                            alt="">
+                    </a>
+                        
+                        
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Makmum</strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.netflix.com/id/title/80217312">
+                        <img src="https://th.bing.com/th/id/R.7749439e94526c3d19d3c5fb32002c65?rik=PbE9izULspDUFA&riu=http%3a%2f%2fwww.impawards.com%2fintl%2fuk%2f2017%2fposters%2fritual_xxlg.jpg&ehk=JVET3irUQpTGTEdEFFBM4J%2b6X8gISMA01VJaRrWKgnU%3d&risl=&pid=ImgRaw&r=0"
+                            alt="">
+                    </a>
+                        
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Ritual </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 6 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.netflix.com/id-en/title/81351497">
+                         <img src="https://res.cloudinary.com/asianfilmfans/image/upload/v1599198740/posters/07b26875-9034-4785-b2f4-1dff355a7d52.jpg"
+                            alt="">
+                    </a>
+                       
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Rope Curse 2 </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+            <!-- 7 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img"> <a href="https://www.netflix.com/id-en/title/80109295">
+                         <img src="https://th.bing.com/th/id/OIP.uZcl9ztWjf3zSm7yQkic0QHaKi?pid=ImgDet&rs=1"
+                            alt="">
+                    </a>
+                       
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Veronica </strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+<!-- Asian Horor-->
+
+ <section id="added">
+        <h3 class="heading-justadded">Asian Movies</h3>
+        <!-- slider -->
+        <ul id="autoWidth7" class="cs-hidden">
+            <!-- 1 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/R.23857ad74b8c1534e29d584e1fda0e54?rik=3sP2czI1eLOAFg&riu=http%3a%2f%2fwww.impawards.com%2fintl%2findonesia%2f2017%2fposters%2fpengabdi_setan_xlg.jpg&ehk=yeyufmHKQLn09pPzBeWaNYw6la5iFppV25d7q5kNT8k%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Pengabdi Setan</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.u2x8kfqCG4LUt1-j8CMXjwHaKl?pid=ImgDet&rs=1"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Danur 2: Maddah</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        </p>
+                        
+                    </div>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://newmovies-thai.com/wp-content/uploads/2019/06/The-3rd-Eye-2.jpg"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The 3rd Eye 2</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://image.tmdb.org/t/p/w500/bPq6x47nEqMZED5PrKelcWWpezM.jpg"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Whole Truth</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://image.tmdb.org/t/p/original/sLaiOg2Y5SsBo0lIXXan1Q3xlZs.jpg"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Alive</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 6 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://postpangandaran.com/photo/plugin/article/2021/1627029460_1-org.jpeg"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Kingdom</strong>
+                        <p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 7 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.cR2QZA4sTBMa8kNm-mDdYwHaLH?pid=ImgDet&rs=1"
+                            alt="">
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Eerie</strong>
+                        <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    
+    <!-- card -->
+
+    <div class="container container-sm">
+        <div class="display-6" style="color: white;">Upcomming</div>
+
+         <div class="row g-sm-6 ">
+        <div class="col-md-6 mb-md-6 p-md-6">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/bl4N4s2sWhg" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="col-md-5 mb-md-6 p-md-6">
+            <h3 class="mt-0">Project Wolf Hunting</h3>
+            <h4>Action <span>Crime</span> Horor</h4>
+            <p>Follows dangerous criminals on a cargo ship who are transported from the Philippines to South Korea, as they unleash a
+            sinister force after an escape attempt leads to a riot.</p>
+        </div>
+    </div>
+    </div>
+
+    <br><br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="miniProject.html">1</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="asianPage.html">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="asianPage.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+<!-- MODAL AKUN USER -->
+    <div class="modal fade" id="akunUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="signin" style="background: linear-gradient(50deg,black, #3D0000 ,#850000);">
+                    <div class="pb_41"> <img src="bee1.png" alt=""> Welcome to Beenemas</div>
+                    <div class="pb_41">Your Account</div>
+                    <img src="cute2.png" alt="" style="width: 100px;">
+                    <div class="mb-3">
+                            <div class="modal-body">
+                                <p><strong>Mawar Melati </strong> </p>
+                                <p><strong>johndoe@email.com</strong> </p>
+                                <p><strong>555-555-5555</strong> </p>
+                                <p><strong>Yeaaay You're Premium</strong> </p>
+                            </div>
+                    </div>
+                        <div class="d-flex flex-column mt_24" style="gap: 12px">
+                            <button type="button" class="btn btn-light btn_sosmed"> 
+                        My List
+                        </button>
+                            <button type="button" class="btn btn-light btn_sosmed">
+                                Change Password
+                            </button>
+                            <button type="button" class="btn btn-light btn_sosmed">
+                                Change Email
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- modal video -->
+<!-- INSIDIOUS -->
+<div class="modal fade" id="scary1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body" style="background: black;">
+                <iframe width="760" height="415" src="https://www.youtube.com/embed/7DNXUvHm-S8" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- LA LLORONA -->
+<div class="modal fade" id="scary2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body" style="background: black;">
+                <iframe width="780" height="415" src="https://www.youtube.com/embed/uOV-xMYQ7sk?start=1" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- THE ROPE CURSE 2 -->
+<div class="modal fade" id="scary3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body" style="background: black;">
+                <iframe width="780" height="415" src="https://www.youtube.com/embed/C_BpiIbQb6Q" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PEE MAK -->
+<div class="modal fade" id="scary4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body" style="background: black;">
+                <iframe width="780" height="415" src="https://www.youtube.com/embed/OfDPDGDvlFI" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- THE SILENCE -->
+<div class="modal fade" id="scary5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body" style="background: black;">
+                <iframe width="780" height="415" src="https://www.youtube.com/embed/Y-ufZuqTd5c" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -------------------------------------------------------------->
+<footer class="p-3 mt-5" style="color: white; 
+background: linear-gradient(75deg #3D0000, Black );">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Coment n Ask -->
+                <h2 class="display-4" style="padding: 20px;
+        box-sizing: border-box;
+        border: 5px solid #3d0000;
+        color: white;
+        font-size: 30px;
+        ">Want to Ask?</h2>
+
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                <div id="emailHelp" class="form-text" style="color: white;">*We'll never share your email with anyone
+                    else.</div>
+
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+                <!-- Chose Topic -->
+                <select class="form-select" aria-label="Default select example" style="width: 30%;">
+                    <option selected>Chose Topic</option>
+                    <option value="1">There is a Bug</option>
+                    <option value="2">Trouble in watch</option>
+                    <option value="3">About your account</option>
+
+                </select>
+                <button type="submit" class="btn"
+                    style="border: 1px solid white; color: white; margin: 10px;">Send!</button>
+
+            </div>
+            <br><br>
+            <div class="col-md-6" style="padding-left: 7%;">
+                <h4> Copyright © 2023 Ajeng Fitrihandini</h4>
+                <p>Mini Project</p>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">About Us</a></li>
+                    <li class="list-inline-item"><a href="#">Services</a></li>
+                    <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                </ul>
+                <h4>Contact Us</h4>
+                <p>123 Main Street<br> Anytown USA<br> 12345<br> Phone: (123) 456-7890<br> Email: info@company.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- JS -->
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+        crossorigin="anonymous"></script>
+    
+    <!-- lightslider jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="cardjs.js"></script>
+</body>
+    
+</html>

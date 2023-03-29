@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="contoh.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Internal Style -->
+    <style>
+        * {
+            font-family: 'Work Sans', sans-serif;
+            /* background: linear-gradient(90deg,  black,#3D0000 ); */
+        }
+
+        body {
+            background: linear-gradient(90deg, black, #3D0000);
+        }
+
+        .card-body {
+            background-color: #3D0000;
+            color: white;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+<!-- NAVBAR ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #fad33d"><img src="/gambar/bee1.png" alt=""> Beenemas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="miniProject.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Genre
+                    </a>
+                    <ul class="dropdown-menu" style="color: white; background: black;">
+                        <li><a class="dropdown-item" href="#horor">Horor</a></li>
+                        <li><a class="dropdown-item" href="#thriller">Thriller</a></li>
+                        <li><a class="dropdown-item" href="#adventure">Adventure</a></li>
+                        <li><a class="dropdown-item" href="page2.html">Kdrama</a></li>
+                        <li><a class="dropdown-item" href="page2.html">Anime</a></li>
+                        <li><a class="dropdown-item" href="page2.html">Kids</a></li>
+                    </ul>
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#signIn">Sign In</a>
+                </li>
+                <nav class="navbar bg-body-light">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- ALERT------------------------------------------ -->
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Some urban legends may have supernatural elements that make them less believable, don't worry we clearly true
+        <img src="gambar/emot1.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- BREADCRUMB -->
+    <div class="container text-center">
+        <nav aria-label="breadcrumb" style="margin: 4%">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="miniProject.html" style="color: white">Home</a></li>
+                <li class="breadcrumb-item"><a href="miniProject.html" style="color: white">Movie</a></li>
+                <li style="color: #fad33d;" class="breadcrumb-item active" aria-current="page">Adventure<img src="gambar/emot1.png"
+                        style="width: 30px;"> </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- cards kayak di olshoop -->
+    <div class="container-fluid d-flex flex-wrap gap-3 justify-content-center p-4">
+        <div class="card" style="width: 13rem; border: none;">
+            <a href="">
+                <img src="https://th.bing.com/th/id/OIP.OWIoWvWXXTYce6jnzUc_EQHaLH?pid=ImgDet&rs=1"
+                    class="card-img-top" data-bs-toggle="modal" data-bs-target="#A1" class="link">
+            </a>
+
+            <div class="card-body">
+                <strong>The Mandalorian</strong> 4,3 <span class="fa fa-star checked"></span>
+
+            </div>
+
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.DXwV8hlc5Ng0xmbEHcpptwAAAA?pid=ImgDet&w=288&h=450&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>The Maze Runner</strong> 4,1 <span class="fa fa-star checked"></span>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://i.redd.it/sf8ndm64klc71.jpg" class="card-img-top">
+            
+            <div class="card-body">
+                <strong>Antman</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg"
+                class="card-img-top">
+            <div class="card-body">
+                <strong>The Way of Water</strong> 3,9 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://i.redd.it/h7uga1bv24fz.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>Game of Thrones</strong> 3,9 <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <div class="card" style="width: 14rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.IK-Zf34UdnkycxRBcTlTOAHaK9?pid=ImgDet&rs=1"
+                class="card-img-top">
+            <div class="card-body">
+                <strong>Andor</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://kbimages1-a.akamaihd.net/d4bbd2fa-5545-473e-88c5-c210809b5295/1200/1200/False/house-of-dragons-1.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>House of Dragon</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://image.tmdb.org/t/p/original/uDnx0j18nFM4JFLMviF3GK1biTF.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>The Flash</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://media.wdwnt.com/2022/09/FcP-dXhacAE2UVp-810x1200.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>Peter pan & wendy</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.kDkuNddQCHtnPl1tKN2Z0gHaLG?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Interestelar</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.BVdcDqFECNsi9Kwzh1oMewHaK-?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Black Panther</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.b-XymUS9foj8WPMoHC6qyQAAAA?pid=ImgDet&rs=1"
+                class="card-img-top">
+            <div class="card-body">
+                <strong>Attack on Titan</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.KyPlrxzRXukmxEHxZcPGHQHaLH?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Shadow and Bone</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://image.tmdb.org/t/p/w500/bPq6x47nEqMZED5PrKelcWWpezM.jpg" class="card-img-top">
+            <div class="card-body">
+                <strong>The Whole Truth</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.JQWXCan3ntXWTPVh202oVwHaLH?pid=ImgDet&rs=1" class="card-img-top">
+            <div class="card-body">
+                <strong>Insidious 3</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP.H4T9TqYVwRRENNfkHcZbaQHaK-?pid=ImgDet&rs=1">
+            <div class="card-body">
+                <strong>In the Tall Grass</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://th.bing.com/th/id/OIP._5nsIl6ozIKKcObzVhOlSwHaLH?pid=ImgDet&rs=1">
+            <div class="card-body">
+                <strong>Don't Breathe 2 </strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+        <div class="card" style="width: 13rem; border: none;">
+            <img src="https://img.reelgood.com/content/show/dfae31cd-db7f-4836-9996-17207b4f2182/poster-780.jpg">
+            <div class="card-body">
+                <strong>Kingdom</strong> 4,0 <span class="fa fa-star checked"></span>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <br><br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="miniProject.html">Back to Home</a>
+            </li>
+    
+        </ul>
+    </nav>
+
+
+<!-- footer ------------------------------------------------------------->
+<footer class="p-3 mt-5" style="color: white; 
+background: linear-gradient(75deg,#3d0000 ,black);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Coment n Ask -->
+                <h2 class="display-4" style="padding: 20px;
+        box-sizing: border-box;
+        border: 5px solid #3d0000;
+        color: white;
+        font-size: 30px;
+        ">Feedback</h2>
+                <!-- Chose Topic -->
+                <select class="form-select" aria-label="Default select example"
+                    style="width: 30%; margin-bottom: 7px;">
+                    <option selected>Chose Topic</option>
+                    <option value="1">Suggest</option>
+                    <option value="2">Like</option>
+                    <option value="3">Dislike</option>
+
+                </select>
+
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                <div id="emailHelp" class="form-text" style="color: white;">*We'll never share your email with anyone
+                    else.</div>
+               
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+
+                <button type="submit" class="btn"
+                    style="border: 1px solid white; color: white; margin: 10px;">Send!</button>
+
+            </div>
+            <br><br>
+            <div class="col-md-6" style="padding-left: 7%;">
+                <h4> Copyright © 2023 Ajeng Fitrihandini</h4>
+                <p>Mini Project</p>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">About Us</a></li>
+                    <li class="list-inline-item"><a href="#">Services</a></li>
+                    <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                </ul>
+                <h4>Contact Us</h4>
+                <p>123 Main Street<br> Anytown USA<br> 12345<br> Phone: (123) 456-7890<br> Email: info@company.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="#A1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Show a second modal and hide this one with the button below.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                    modal</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Log In-->
+<div class="modal fade" id="signIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="signin">
+                <div class="pb_41"> <img src="gambar/bee1.png" alt=""> Welcome to Beenemas</div>
+                <div class="pb_41">Sign in</div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Email">
+                    <div id="emailHelp" class="form-text" style="color: white;">*We'll never share your email with
+                        anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+
+
+                <div class="form-check form-switch d-flex justify-content-center align-items-center mt_24">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+                        style="margin: 8px" />
+                    <label class="form-check-label or_text" for="flexSwitchCheckDefault">Remember Me</label>
+                </div>
+                <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-warning mt_24 btn_signin">
+                        Ok
+                    </button>
+
+                    <div class="or_text mt_24" style="text-align: center">or</div>
+
+                    <div class="d-flex flex-column mt_24" style="gap: 12px">
+                        <button type="button" class="btn btn-light btn_sosmed">
+                            <i class="fa-brands fa-google"></i>
+                            Continue with Google
+                        </button>
+                        <button type="button" class="btn btn-light btn_sosmed">
+                            <i class="fa-brands fa-facebook"></i>
+                            Continue with Facebook
+                        </button>
+                        <button type="button" class="btn btn-light btn_sosmed">
+                            <i class="fa-brands fa-apple"></i>
+                            Continue with Apple
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL MOVIE CARD -->
+<!-- A -->
+<!-- Modal Adventures -->
+
+<div class="modal fade" id="A1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-black">
+
+            <div class="modal-body">
+                <img src="https://th.bing.com/th/id/OIP.OWIoWvWXXTYce6jnzUc_EQHaLH?pid=ImgDet&rs=1" alt="">
+                <strong style="color: white;">The Scream</strong>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star" style="colo: white"></span>
+                    <span class="fa fa-star"></span>
+                </p>
+            </div>
+            <div class="modal-footer"> <a href="https://www.imdb.com/">
+                    <button class="btn btn-light" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">
+                        Watch</button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,552 @@
+body {
+  background: linear-gradient(75deg,  #3D0000,black, #3D0000, black);
+  transition: all;
+  overflow-x: hidden;
+}
+.checked {
+  color: orange;
+}
+.card-body strong {
+  font: 12px;
+}
+
+.navbar {
+  background: #3D0000;
+}
+
+.link-page {
+  text-decoration: none;
+  color: white;
+}
+.link-page:hover{
+  color: orange;
+}
+/* asian page */
+
+/* .body3 {
+  background: linear-gradient(75deg, #4C3A51,
+    #443C68);
+  transition: all;
+  overflow-x: hidden;
+} */
+
+.h4 a{
+  color: white;
+}
+.h4 a:hover {
+  color: #fad33d;
+}
+
+/* scary movie page */
+/* #850000, */
+
+
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.nav-item {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #fad33d;
+}
+.navbar-brand img {
+  width: 40px;
+}
+
+.alert {
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.alert img {
+  width: 40px;
+}
+
+.breadcrumb-item {
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+ /* css scary movies page */
+ .main {
+   padding-top: 10px;
+
+ }
+
+ section {
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ .popular-box {
+   width: 425px;
+   height: 250px;
+   box-shadow: 5px 15px 30px;
+   border-radius: 10px;
+   margin: 5px 5px 5px 20px;
+   overflow: hidden;
+ }
+
+ .popular-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: top;
+ }
+
+ .heading-popular {
+   padding-left: 40px;
+   font-weight: 600;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   color: white;
+ }
+
+ .heading-justadded {
+   margin: 30px 30px 9px 30px;
+   font-weight: 600;
+   font-size: 1.3rem;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+
+ }
+
+ /* css untuk ASIANTV */
+
+ .added-box {
+   box-sizing: border-box;
+   border: 1px solid black;
+   /* padding: 10px; */
+   display: flex;
+   flex-direction: column;
+   color: white;
+   align-items: center;
+   margin: 10px 25px;
+   border-radius: 10px;
+   border: none;
+   overflow: hidden;
+   width: 200px;
+   text-decoration: none;
+   background: #3D0000;
+ }
+
+ .added-box:hover {
+   transform: scale(1.008);
+   transition: all ease 0.3s;
+   box-shadow: 5px 5px 10px 6px gray;
+ }
+
+ .added-b-img {
+   width: 100%;
+   height: 270px;
+ }
+
+ .added-b-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+ }
+
+ .added-b-text {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 10px;
+ }
+
+ .added-b-text strong {
+   /* color: black; */
+   margin: 0px;
+
+ }
+
+
+ .added-b-text p {
+   margin: 0px;
+   color: white;
+ }
+ .item-b {
+   list-style-type: none;
+ }
+
+
+
+
+/* Home page */
+.cs-hidden {
+
+   width: 800px;
+   height: 300px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: 2%;
+   margin-bottom: auto;
+   /* padding: 40px; */
+   overflow: hidden !important ;
+ }
+
+ #latest{
+
+ }
+
+
+/* end css asiantv */
+
+ .container h3 {
+   margin: auto;
+   color: white;
+   padding-top: 10px;
+   padding-bottom: 0px;
+   letter-spacing: 1px;
+ }
+ .container h4 {
+  margin: auto;
+  color: white;
+  letter-spacing: 1px;
+ }
+
+ a {
+   text-decoration: none;
+ }
+  .lSPager {
+   display: none;
+ }
+
+
+/* Custom styles for accordion */
+
+
+.accordion {
+  margin-bottom: 12px;
+  /* border-radius: 20px; */
+  border: none;
+  padding: 40px;
+  box-shadow: 2px 3px 4px 5px;
+  box-sizing: border-box;
+    border: 5px solid #3D0000;
+    display: flex;
+  flex-direction: column;
+
+}
+
+.accordion-button {
+  padding: 1rem 1.25rem;
+}
+
+
+.accordion-button,
+.accordion-header button {
+  font-size: 0.9rem;
+}
+
+
+.accordion-button::after {
+  font-size: 0.8rem;
+}
+
+.accordion-header button {
+  background-color: #3D0000;
+  box-sizing: border-box;
+  color: white;
+  font-size: 25px;
+}
+.accordion .accordion-item {
+  /* Style of the accordion items */
+  border: none;
+  margin-bottom: 5px;
+  /* border-bottom: 1px solid #ddd; */
+}
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+.accordion-item.show {
+  background-color: #3D0000;
+}
+.accordion .accordion-header {
+  font-size: 16px;
+  /* justify-self: center; */
+  color: #3D0000;
+  background-color: #3D0000;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.accordion .accordion-body {
+
+  font-size: 20px;;
+  color: white;
+  background-color: #3D0000;
+  padding: 12px 20px;
+}
+
+/* responsive Q&A accordion*/
+@media (max-width: 600px) {
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-body{
+    font-size: 12px ;
+  }
+
+  .accordion-item.active .accordion-content {
+    max-height: 400px;
+  }
+
+  .accordion-btn::after {
+    content: '+';
+    float: right;
+  }
+
+  .accordion-item.active .accordion-btn::after {
+    content: '-';
+  }
+}
+@media (max-width: 767px) {
+
+  .accordion {
+    flex-direction: column;
+  }
+
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+
+  .accordion-header {
+    font-size: 14px;
+  }
+}
+
+
+/* UPCOMMING CSS = MOVIE SCARY PAGE */
+.col-md-5 p {
+  color: white;
+}
+
+@media (min-width: 768px){
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+
+
+
+/* responsive card slider home explore page */
+ /* @media(max-width:680px) {
+   .slider-heading h33 {
+     font-size: 21px;
+   }
+
+   .movie-box{
+     max-width: 300px;
+     margin: 10px;
+     height: 180px;
+     box-sizing: border-box;
+
+   }
+
+   .movie-box img {
+     width: 160px;
+     height: 190px;
+     padding: 0px;
+   }
+
+   .movie-box strong {
+     font-size: 21px;
+
+   }
+
+   .lSAction>a {
+     display: none;
+   }
+
+   .movie-slider {
+     padding: 0px;
+
+   }
+ }
+
+ @media(max-width:400px) {
+   .movie-box {
+     width: 280px;
+   }
+ }
+
+ @media(max-width:324px) {
+
+   .movie-box {
+     width: 225px;
+
+   }
+
+   .movie-box img {
+     width: 140px;
+     height: 165px;
+   }
+
+ } */
+
+ .card {
+  border-radius: 13px;
+  margin: 15px;
+ }
+ .card-footer {
+  background: #3D0000;
+ }
+
+ .modal-content {
+  width: 27rem;
+ }
+ .modal-body a {
+  margin: 5px;
+ }
+
+.modal-body img{
+  margin: 0px;
+  border-radius: 13px;
+  width: 28rem;
+}
+.modal-body strong{
+  font-size: 30px;  
+}
+ /* .card img {
+  border-radius: 13px;
+ } */
+/* enddd */
+
+/* css SIGN IN MODAL */
+ .signin {
+   padding: 30px 40px;
+   margin: 0px;
+   /* color: white; */
+   font-style: normal;
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 29px;
+  background: linear-gradient(30deg, #3D0000, black);
+ }
+
+ .pb_41 {
+   padding-bottom: 25px;
+   color: white;
+ }
+ .signin img {
+  width: 40px;
+  color: #7a8fc2;
+
+ }
+
+ .input_email {
+   border: 1.5px solid white;
+   border-radius: 8px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   width: 100%;
+
+   /* White/White 30 - #B3B3B3 */
+   color: #b3b3b3;
+ }
+
+ .or_text {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+
+   /* Black/Black 80 - #333333 */
+   color: white;
+ }
+
+ .mt_24 {
+   margin-top: 10px;
+ }
+
+ .btn_sosmed {
+   background: #f2f2f2;
+   border-radius: 4px;
+ }
+
+ .btn_signin {
+   background: #f6a973;
+   border-radius: 8px;
+   height: 51px;
+ }
+
+ .btn_signup {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-decoration: none;
+
+   /* Brand/Orange/Orange - #F6A973 */
+   color: #f6a973;
+ }
+
+ .btn_signup:hover {
+   color: white;
+ }
+
+ .btn-close-signin-modal {
+   position: relative;
+   left: 465px;
+   top: 10px;
+ }
+ .mb-3 {
+  font-size: 16px;
+  color: white;
+ }
+
+ /* modal movie */
+ /* scary page */
+ .modal-body {
+
+ }
+/* ENDDDD */
+
+
+ /* PAGINATION */
+ .page-item a{
+  background-color: #3D0000;
+  color: #fad33d;
+  border: none;
+  /* width: 80px ; */
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+ }
+ .page-item a:hover {
+  background-color: #495C83;
+  color: #3D0000;
+ }
+
+ /* Coment question */
+ 
+ .form-select option{
+  background: #3D0000;
+  color: white;
+ }
